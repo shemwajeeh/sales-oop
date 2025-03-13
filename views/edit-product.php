@@ -41,7 +41,7 @@
                 <form action="../actions/product-actions.php?product_id=<?= $product_details['id']?>" method="post" class="w-75 mx-auto">
                     <div class="row mb-3">
                         <div class="col-md">
-                            <label for="product-name" class="form-label small text-secondary">Product Name</label>
+                            <label for="product-name" class="form-label small text-warning">Product Name</label>
                             <input type="text" name="product_name" id="product-name" class="form-control" value="<?= $product_details['product_name']?>">
                         </div>
                     </div>
